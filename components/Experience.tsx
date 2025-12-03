@@ -65,14 +65,14 @@ const Experience: React.FC = () => {
               <div className="relative group">
                 <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-deepSpace border-2 border-neonPurple group-hover:bg-neonPurple transition-colors shadow-[0_0_10px_rgba(176,38,255,0.5)]"></div>
                 <h4 className="text-xl font-bold text-white group-hover:text-neonPurple transition-colors">Founder & Lead Dev</h4>
-                <p className="text-neonCyan text-sm mb-2 font-mono">DreamToFly • 2023 - Present</p>
+                <p className="text-neonCyan text-sm mb-2 font-mono">DreamToFly • 2025 - Present</p>
                 <p className="text-gray-400 text-sm">Building a digital solutions agency from the ground up. Delivering websites, security audits, and tech workshops.</p>
               </div>
 
               <div className="relative group">
                 <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-deepSpace border-2 border-gray-600 group-hover:border-neonPurple transition-colors"></div>
                 <h4 className="text-xl font-bold text-white group-hover:text-neonPurple transition-colors">Security Consultant</h4>
-                <p className="text-neonCyan text-sm mb-2 font-mono">Freelance • 2022 - Present</p>
+                <p className="text-neonCyan text-sm mb-2 font-mono">Freelance • 2023 - 2025 - Present</p>
                 <p className="text-gray-400 text-sm">Helping colleges and local businesses secure their digital infrastructure against vulnerabilities.</p>
               </div>
               
@@ -80,7 +80,7 @@ const Experience: React.FC = () => {
                 <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-deepSpace border-2 border-gray-600 group-hover:border-neonPurple transition-colors"></div>
                 <h4 className="text-xl font-bold text-white group-hover:text-neonPurple transition-colors">Technical Trainer</h4>
                 <p className="text-neonCyan text-sm mb-2 font-mono">Workshops & Seminars</p>
-                <p className="text-gray-400 text-sm">Conducted hands-on sessions on Ethical Hacking and Web Development for students.</p>
+                <p className="text-gray-400 text-sm">Conducted hands-on sessions on  Cyber Security and Poster Making for students.</p>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ const Experience: React.FC = () => {
                 <ShieldAlert className="text-red-400 mt-1 shrink-0" />
                 <div>
                   <h4 className="font-bold text-white">Vulnerability Reports</h4>
-                  <p className="text-gray-400 text-sm mt-1">Identified and reported critical bugs like IDOR and XSS in multiple platforms, securing user data.</p>
+                  <p className="text-gray-400 text-sm mt-1">Reported critical vulnerabilities including IDOR, authentication flaws, and security misconfigurations to my university, helping strengthen their systems.<br></br>ecured multiple company and government-related platforms by identifying threats and assisting in implementing protective measures.</p>
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ const Experience: React.FC = () => {
                 <Award className="text-yellow-400 mt-1 shrink-0" />
                 <div>
                   <h4 className="font-bold text-white">DreamToFly Launch</h4>
-                  <p className="text-gray-400 text-sm mt-1">Successfully launched my own tech service brand, completing 10+ projects in the first year.</p>
+                  <p className="text-gray-400 text-sm mt-1">Successfully launched my own tech service brand, completing 5+ projects in the first year.</p>
                 </div>
               </div>
             </div>
