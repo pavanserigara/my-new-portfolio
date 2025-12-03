@@ -64,8 +64,8 @@ const About: React.FC = () => {
     { icon: <Shield size={18} />, text: 'Ethical Hacking & Security', color: 'text-neonPurple' },
     { icon: <Code size={18} />, text: 'Full-Stack Development', color: 'text-neonCyan' },
     { icon: <PenTool size={18} />, text: 'UI/UX & Vibe Coding', color: 'text-pink-500' },
-    { icon: <Camera size={18} />, text: 'Photography & Editing', color: 'text-yellow-400' },
-    { icon: <Globe size={18} />, text: 'Web3 & Blockchain', color: 'text-blue-400' },
+    { icon: <Camera size={18} />, text: 'Photography & Videography & Editing', color: 'text-yellow-400' },
+    { icon: <Globe size={18} />, text: 'Web Development', color: 'text-blue-400' },
     { icon: <Cpu size={18} />, text: 'IoT & Hardware', color: 'text-green-400' },
   ];
 
@@ -121,17 +121,17 @@ const About: React.FC = () => {
 
             <div className="mt-12 flex gap-6">
                <div className="text-center">
-                  <h3 className="text-3xl font-bold text-white">5+</h3>
+                  <h3 className="text-3xl font-bold text-white">3+</h3>
                   <p className="text-xs text-gray-500 uppercase tracking-widest mt-1">Years Coding</p>
                </div>
                <div className="w-px h-12 bg-white/10"></div>
                <div className="text-center">
-                  <h3 className="text-3xl font-bold text-neonCyan">20+</h3>
+                  <h3 className="text-3xl font-bold text-neonCyan">30+</h3>
                   <p className="text-xs text-gray-500 uppercase tracking-widest mt-1">Projects Done</p>
                </div>
                <div className="w-px h-12 bg-white/10"></div>
                <div className="text-center">
-                  <h3 className="text-3xl font-bold text-neonPurple">10+</h3>
+                  <h3 className="text-3xl font-bold text-neonPurple">50+</h3>
                   <p className="text-xs text-gray-500 uppercase tracking-widest mt-1">Vulns Found</p>
                </div>
             </div>
