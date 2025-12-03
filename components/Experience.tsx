@@ -68,6 +68,25 @@ const Experience: React.FC = () => {
                 <p className="text-neonCyan text-sm mb-2 font-mono">DreamToFly • 2025 - Present</p>
                 <p className="text-gray-400 text-sm">Building a digital solutions agency from the ground up. Delivering websites, security audits, and tech workshops.</p>
               </div>
+              <div className="relative group">
+  <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-deepSpace border-2 border-gray-600 group-hover:border-neonPurple transition-colors"></div>
+  
+  <h4 className="text-xl font-bold text-white group-hover:text-neonPurple transition-colors">
+    Developer & Core Creator
+  </h4>
+
+  <p className="text-neonCyan text-sm mb-2 font-mono">
+    Independent • 2023-2025 - Present
+  </p>
+
+  <p className="text-gray-400 text-sm">
+    Built numerous personal projects driven by curiosity and passion for development, constantly experimenting with new ideas.
+  </p>
+
+  <p className="text-gray-400 text-sm mt-1">
+    Explored a wide range of AI tools, modern frameworks, and emerging technologies to enhance skills and create innovative solutions.
+  </p>
+</div>
 
               <div className="relative group">
                 <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-deepSpace border-2 border-gray-600 group-hover:border-neonPurple transition-colors"></div>
