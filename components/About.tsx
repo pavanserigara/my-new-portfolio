@@ -85,7 +85,7 @@ const About: React.FC = () => {
              <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-deepSpace">
                <div className="absolute inset-0 bg-neonPurple/10 mix-blend-overlay z-10 hover:bg-transparent transition-colors duration-500"></div>
                <img 
-                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80" 
+                 src="https://github.com/pavanserigara/my-new-portfolio/blob/main/IMG_20240513_083347.jpg" 
                  alt="Pavan Kumar" 
                  className="w-full h-[500px] object-cover object-center grayscale hover:grayscale-0 transition-all duration-700 scale-100 hover:scale-105"
                />
