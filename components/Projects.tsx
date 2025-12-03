@@ -8,32 +8,32 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "Neon Nexus",
-    category: "Web3 NFT Platform",
-    image: "https://images.unsplash.com/photo-1620641788421-7f1c91ade639?auto=format&fit=crop&q=80&w=800",
-    description: "A decentralized marketplace for digital assets with real-time bidding and 3D previews.",
-    tech: ["React", "Solidity", "WebGL", "Tailwind"],
+    title: "National Fincorp Limited",
+    category: " Finance Website With Backend",
+    image: "https://raw.githubusercontent.com/pavanserigara/my-new-portfolio/main/nfcl.jpg",
+    description: "A full-stack fintech platform built for NationalFinCorp Limited, featuring loan management, account and user administration, secure backend operations, and a modern responsive frontend.",
+    tech: ["PHP", "Html", "Css", "PhpMyAdmin"],
   },
   {
-    title: "Cyber Vision",
-    category: "AI Security Dashboard",
-    image: "https://images.unsplash.com/photo-1558494949-efc025793ad0?auto=format&fit=crop&q=80&w=800",
-    description: "Real-time threat monitoring dashboard utilizing machine learning to detect anomalies.",
-    tech: ["Vue.js", "Python", "TensorFlow", "D3.js"],
+    title: "Clean & Care",
+    category: "multi-panel backend",
+    image: "https://raw.githubusercontent.com/pavanserigara/my-new-portfolio/main/cnc.jpg",
+    description: "Developed a complete multi-panel backend for Clean & Care with separate Admin, Dealer, and Salesman dashboards, enabling seamless inventory control, sales order processing, delivery management, invoice printing, and real-time analytics for business insights.",
+    tech: ["PHP", "Html", "Css", "PhpMyAdmin"],
   },
   {
-    title: "Aether Lens",
-    category: "AR Social Experience",
-    image: "https://images.unsplash.com/photo-1614728853980-40598a81f3b3?auto=format&fit=crop&q=80&w=800",
-    description: "Social media application integrating augmented reality filters and location-based drops.",
-    tech: ["React Native", "Three.js", "Firebase", "Mapbox"],
+    title: "Picardo International Tours And Travells",
+    category: "Frontend With Simple Backend",
+    image: "https://raw.githubusercontent.com/pavanserigara/my-new-portfolio/main/picardo.jpg",
+    description: "Developed a responsive frontend for Picardo, a travel agency, featuring destination listings and integrated Google Maps for interactive navigation.",
+    tech: ["PHP", "Html", "Css", "PhpMyAdmin"],
   },
   {
-    title: "Echo Protocol",
-    category: "Encrypted Messaging",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800",
-    description: "End-to-end encrypted communication tool for secure enterprise collaboration.",
-    tech: ["Electron", "Node.js", "Socket.io", "Redis"],
+    title: "Gokarna Samudra",
+    category: "Resort Website Frontend",
+    image: "https://raw.githubusercontent.com/pavanserigara/my-new-portfolio/main/gokarna.jpg",
+    description: "Built a modern, responsive frontend for Gokarna Samudra beach resort, showcasing rooms, gallery, and amenities, with direct booking integration via WhatsApp for seamless guest reservations.",
+    tech: ["Html", "Css"],
   }
 ];
 
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 flex items-center gap-3">
-               <span className="text-neonPurple font-mono text-2xl">06.</span> Selected Works
+               <span className="text-neonPurple font-mono text-2xl">06.</span> Projects
             </h2>
             <p className="text-gray-400 max-w-xl">
               A curated selection of projects demonstrating full-stack capability and creative engineering.
@@ -104,8 +104,8 @@ const Projects: React.FC = () => {
                       {project.category}
                     </span>
                     <div className="flex gap-3 text-gray-400">
-                      <a href="#" className="hover:text-white transition-colors" title="View Code"><Github size={18} /></a>
-                      <a href="#" className="hover:text-white transition-colors" title="Live Demo"><ExternalLink size={18} /></a>
+                      <a href="" className="hover:text-white transition-colors" title="View Code"><Github size={18} /></a>
+                      <a href="" className="hover:text-white transition-colors" title="Live Demo"><ExternalLink size={18} /></a>
                     </div>
                   </div>
                   
@@ -131,7 +131,7 @@ const Projects: React.FC = () => {
         </div>
         
         <div className="mt-12 text-center md:hidden">
-          <a href="#" className="inline-flex items-center gap-2 text-neonCyan hover:text-white transition-colors">
+          <a href="https://dreamtoflyofficial.in/portfolio.html" className="inline-flex items-center gap-2 text-neonCyan hover:text-white transition-colors">
             View All Archives <ArrowRight size={16} />
           </a>
         </div>
