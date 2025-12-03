@@ -65,7 +65,7 @@ const DreamToFly: React.FC = () => {
             </div>
 
            <a href="https://dreamtoflyofficial.in/" target="_blank" rel="noopener noreferrer">
-  <MagneticButton className="bg-black text-black font-bold hover:bg-gray-200 border-none px-10">
+  <MagneticButton className="bg-white text-black font-bold hover:bg-gray-200 border-none px-10">
     Visit Company Site
   </MagneticButton>
 </a>
