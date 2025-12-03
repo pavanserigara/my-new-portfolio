@@ -9,25 +9,25 @@ gsap.registerPlugin(ScrollTrigger);
 const educationData = [
   {
     level: 'Degree - BCA',
-    year: '2018 - 2021',
-    institution: 'Bangalore University',
+    year: '2023 - 2026',
+    institution: 'Milagres College Kallianpur , udupi ',
     description: 'Specialized in Computer Applications, Web Development, and Database Management.',
     icon: <GraduationCap size={24} />,
     color: 'text-neonCyan'
   },
   {
     level: 'PUC (Pre-University)',
-    year: '2016 - 2018',
-    institution: 'City College of Science',
-    description: 'Focus on Physics, Mathematics, and Computer Science foundation.',
+    year: '2021 - 2023',
+    institution: 'Govt Pu College Tenkanidiyoor',
+    description: 'Focused PU Commerce program with strong foundations in Accountancy, Business Studies, and Economics.',
     icon: <BookOpen size={24} />,
     color: 'text-neonPurple'
   },
   {
     level: 'SSLC',
-    year: '2016',
-    institution: 'St. Joseph High School',
-    description: 'Completed secondary education with distinction in Mathematics and Science.',
+    year: '2020',
+    institution: 'Adiudupi HighSchool',
+    description: 'Completed secondary education with a strong foundation in Mathematics and Science.',
     icon: <School size={24} />,
     color: 'text-pink-500'
   }
