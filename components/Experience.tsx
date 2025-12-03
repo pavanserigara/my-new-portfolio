@@ -129,6 +129,19 @@ const Experience: React.FC = () => {
                   <p className="text-gray-400 text-sm mt-1">Mentored 50+ students in getting started with cybersecurity and coding through practical workshops.</p>
                 </div>
               </div>
+              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors transform hover:-translate-y-1 duration-300">
+  <Cpu className="text-green-400 mt-1 shrink-0" />
+  
+  <div>
+    <h4 className="font-bold text-white">IoT Developer</h4>
+    <p className="text-gray-400 text-sm mt-1">
+      Designed and built smart IoT systems using ESP8266 and ESP32-CAM, integrating sensors, automation, and real-time controls.
+    </p>
+    <p className="text-gray-400 text-sm mt-1">
+      Developed AI-assisted features such as number plate recognition, object detection, and servo-based automation.
+    </p>
+  </div>
+</div>
 
               <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors transform hover:-translate-y-1 duration-300">
                 <Award className="text-yellow-400 mt-1 shrink-0" />
