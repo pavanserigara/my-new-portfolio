@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
     if (!formState.name || !formState.message) return alert('Please fill in your name and message.');
     
     // Construct WhatsApp URL
-    const phoneNumber = "919999999999"; // Placeholder number
+    const phoneNumber = "917676446647"; // Placeholder number
     const text = `Hi Pavan, I am ${formState.name}. ${formState.message} (Email: ${formState.email})`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
     
@@ -65,10 +65,10 @@ const Contact: React.FC = () => {
               <a href="#" className="p-4 glass-card rounded-full hover:text-blue-400 hover:border-blue-400 transition-all group hover:-translate-y-2">
                 <Linkedin size={24} className="group-hover:scale-110 transition-transform" />
               </a>
-              <a href="#" className="p-4 glass-card rounded-full hover:text-pink-500 hover:border-pink-500 transition-all group hover:-translate-y-2">
+              <a href="https://www.instagram.com/_pavan_serigara_/" className="p-4 glass-card rounded-full hover:text-pink-500 hover:border-pink-500 transition-all group hover:-translate-y-2">
                 <Instagram size={24} className="group-hover:scale-110 transition-transform" />
               </a>
-              <a href="mailto:contact@pavan.dev" className="p-4 glass-card rounded-full hover:text-yellow-400 hover:border-yellow-400 transition-all group hover:-translate-y-2">
+              <a href="mailto:pavankserigara@gmail.com" className="p-4 glass-card rounded-full hover:text-yellow-400 hover:border-yellow-400 transition-all group hover:-translate-y-2">
                 <Mail size={24} className="group-hover:scale-110 transition-transform" />
               </a>
             </div>
@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
                <div className="p-2 rounded-full bg-white/5 border border-white/10">
                  <Phone size={20} className="text-neonCyan" />
                </div>
-               <span className="font-mono text-lg">+91 999 999 9999</span>
+               <span className="font-mono text-lg">+91 76764 46647</span>
             </div>
           </div>
 
